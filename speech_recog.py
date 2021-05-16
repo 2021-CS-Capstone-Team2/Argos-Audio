@@ -23,7 +23,7 @@ def callback(recognizer, audio):
         say = recognizer.recognize_google(audio, language='ko-KR')
         if(say):
             s = datetime.now().strftime("%Y%m%d%H%M%S")
-            f = open(path+s+".txt", 'w')
+            f = open(path+filename+s+".txt", 'w')
             f.write(say)
             print("you said: " + say)
     except sr.UnknownValueError:
