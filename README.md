@@ -13,6 +13,7 @@ Python의 SpeechRecognition API를 사용하였으며,
 
 <h2>speech_recog.py</h2>
 **use in Argos Program**
+
 Python의 SpeechRecognition API를 사용하였으며,
 
 음성을 인식하기 위한 마이크가 별도의 thread를 만들어 background에서 동작합니다.
