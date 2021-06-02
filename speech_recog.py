@@ -37,7 +37,7 @@ def main():
     m = sr.Microphone()
 
     #signal setting - mic terminate
-    signal.signal(signal.SIGTERM, handler)
+    #signal.signal(signal.SIGTERM, handler)
 
     #noise check ... this time is very important ...
     with m as source : 
